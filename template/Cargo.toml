@@ -1,0 +1,11 @@
+[package]
+name = "$DAY"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+regex = "1.10"
+num = "0.4"
+combinations = "0.1"
+itertools = "0.12"
+single = "1.0"
