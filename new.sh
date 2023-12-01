@@ -13,7 +13,9 @@ echo "<component name=\"ProjectRunConfigurationManager\">
     <option name=\"withSudo\" value=\"false\" />
     <option name=\"buildTarget\" value=\"REMOTE\" />
     <option name=\"backtrace\" value=\"SHORT\" />
-    <envs />
+    <envs>
+      <env name=\"RUST_BACKTRACE\" value=\"full\" />
+    </envs>
     <option name=\"isRedirectInput\" value=\"false\" />
     <option name=\"redirectInputPath\" value=\"\" />
     <method v=\"2\">
